@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="42" started-at="2021-03-14T06:06:09Z" finished-at="2021-03-14T06:06:10Z">
+    <groups>
+      <group name="Regression">
+        <method signature="Sample1.tc2()[pri:2, instance:org.adactin.testng.Sample1@56cbfb61]" name="tc2" class="org.adactin.testng.Sample1"/>
+        <method signature="Sample3.tc5()[pri:0, instance:org.adactin.testng.Sample3@1134affc]" name="tc5" class="org.adactin.testng.Sample3"/>
+      </group> <!-- Regression -->
+      <group name="smoke">
+        <method signature="Sample2.tc3()[pri:0, instance:org.adactin.testng.Sample2@2c8d66b2]" name="tc3" class="org.adactin.testng.Sample2"/>
+      </group> <!-- smoke -->
+      <group name="re-run">
+        <method signature="Sample3.tc6()[pri:0, instance:org.adactin.testng.Sample3@1134affc]" name="tc6" class="org.adactin.testng.Sample3"/>
+      </group> <!-- re-run -->
+    </groups>
+    <test name="Test" duration-ms="42" started-at="2021-03-14T06:06:09Z" finished-at="2021-03-14T06:06:10Z">
+      <class name="org.adactin.testng.Sample3">
+        <test-method status="PASS" signature="tc5()[pri:0, instance:org.adactin.testng.Sample3@1134affc]" name="tc5" duration-ms="1" started-at="2021-03-14T11:36:10Z" finished-at="2021-03-14T11:36:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc5 -->
+        <test-method status="PASS" signature="tc6()[pri:0, instance:org.adactin.testng.Sample3@1134affc]" name="tc6" duration-ms="0" started-at="2021-03-14T11:36:10Z" finished-at="2021-03-14T11:36:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc6 -->
+      </class> <!-- org.adactin.testng.Sample3 -->
+      <class name="org.adactin.testng.Sample1">
+        <test-method status="PASS" signature="tc2()[pri:2, instance:org.adactin.testng.Sample1@56cbfb61]" name="tc2" duration-ms="1" started-at="2021-03-14T11:36:10Z" finished-at="2021-03-14T11:36:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2 -->
+      </class> <!-- org.adactin.testng.Sample1 -->
+      <class name="org.adactin.testng.Sample2">
+        <test-method status="PASS" signature="tc3()[pri:0, instance:org.adactin.testng.Sample2@2c8d66b2]" name="tc3" duration-ms="12" started-at="2021-03-14T11:36:10Z" finished-at="2021-03-14T11:36:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc3 -->
+      </class> <!-- org.adactin.testng.Sample2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
